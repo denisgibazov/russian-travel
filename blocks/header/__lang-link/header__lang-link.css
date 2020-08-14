@@ -1,0 +1,24 @@
+.header__lang-link {
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 28px;
+  list-style: none;
+  text-decoration: none;
+  opacity: 1;
+}
+
+/*переключение языков русского и английского*/
+.header__lang-link:hover {
+  opacity: 0.5;
+  transition: 0.3s ease-out;
+}
+/*прозрачность при наведение выбора языка*/
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
