@@ -1,19 +1,20 @@
 @import url("../footer/__link/footer__link.css");
 @import url("../footer/__list/footer__list.css");
-@import url("../footer/__list/_item/footer__list_item.css");
+@import url("../footer/__list-item/footer__list-item.css");
 @import url("../footer/__author/footer__author.css");
 
 .footer {
+  font-family: "Inter", Arial, sans-serif;
   max-width: 1184px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   padding-bottom: 24px;
+  padding-top: 92px;
 }
 
 @media screen and (max-width: 1280px) {
   .footer {
-    max-width: 1184px;
     margin: 0 48px;
   }
 }
@@ -29,5 +30,6 @@
   .footer {
     margin: 0 auto 0 16px;
     flex-direction: column;
+    padding-top: 0;
   }
 }

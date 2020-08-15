@@ -1,6 +1,7 @@
+@import url("./_active/header__lang-link_active.css");
+
 .header__lang-link {
   color: #ffffff;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
@@ -8,8 +9,12 @@
   list-style: none;
   text-decoration: none;
   opacity: 1;
+  margin-right: 18px;
 }
 
+.header__lang-link:nth-child(2n + 0) {
+  margin-right: 0;
+}
 /*переключение языков русского и английского*/
 .header__lang-link:hover {
   opacity: 0.5;

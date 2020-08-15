@@ -5,7 +5,7 @@
   margin-bottom: 24px;
 }
 
-.place__paragraph:nth-child(2n + 0) {
+.place__paragraph:last-child {
   margin-bottom: 0;
 }
 

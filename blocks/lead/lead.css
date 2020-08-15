@@ -4,6 +4,7 @@
 @import url(../lead/__caption/lead__caption.css);
 
 .lead {
+  font-family: "Inter", Arial, sans-serif;
   max-width: 83.11%;
   margin: 0 auto;
   padding-top: 4.73%;
