@@ -1,4 +1,4 @@
-@import url("./_active/header__lang-link_active.css");
+@import url("../__lang-link/_active/header__lang-link_active.css");
 
 .header__lang-link {
   color: #ffffff;
@@ -8,13 +8,10 @@
   line-height: 28px;
   list-style: none;
   text-decoration: none;
+  margin-left: 18px;
   opacity: 1;
-  margin-right: 18px;
 }
 
-.header__lang-link:last-child {
-  margin-right: 0;
-}
 /*переключение языков русского и английского*/
 .header__lang-link:hover {
   opacity: 0.5;

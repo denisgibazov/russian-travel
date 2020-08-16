@@ -9,10 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../../../images/cover-trains.jpg") no-repeat;
-  background-color: rgba(42, 44, 47, 0.3);
-  position: relative;
-  background-size: cover;
+  background: url("../../../images/cover-trains.jpg") center/ 100% no-repeat;
   z-index:10;
 }
 
