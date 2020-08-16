@@ -12,7 +12,7 @@
   margin-right: 18px;
 }
 
-.header__lang-link:nth-child(2n + 0) {
+.header__lang-link:last-child {
   margin-right: 0;
 }
 /*переключение языков русского и английского*/

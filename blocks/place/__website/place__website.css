@@ -1,5 +1,3 @@
-@import url(../__website/_link/place__website_link.css);
-
 .place__website {
   display: flex;
   flex-direction: column;

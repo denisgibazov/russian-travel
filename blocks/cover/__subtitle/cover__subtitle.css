@@ -5,6 +5,7 @@
   margin: 0 auto;
   margin-top: 32px;
   text-align: center;
+  z-index: 20;
 }
 
 @media screen and (max-width: 520px) {
